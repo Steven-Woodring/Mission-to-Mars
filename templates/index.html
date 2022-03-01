@@ -51,9 +51,9 @@
         <ul>
           {% for hemisphere in mars.hemispheres %}
           <li>
-            <img src="{{ hemisphere }}" class="img-responsive img-rounded" alt="Responsive image">
+            <img src="{{hemisphere.img_url}}" class="img-responsive img-rounded" alt="Responsive image">
           </li>
-          {% end for %}
+          {% endfor %}
         </ul>
       </div>
     </div>
